@@ -22,13 +22,16 @@
 % 1. Add detailed comments for easier understanding
 % 2. Change the variable names to be consistent with the symbols in the paper
 % 3. Rewrite some codes to be consistent with the algorithm steps in the paper
+%
+% For updated versions, please consult:
+% https://github.com/YimianDai/Image-Processing-Codes-for-Easier-Understanding
 
 clc; 
 clear all;
 close all;
 
-addpath('../../images');
-addpath('../../matlab_support');
+addpath('../images');
+addpath('../utilities');
 
 img = double(imread('Lena512','png'));
 sigma = 20;
