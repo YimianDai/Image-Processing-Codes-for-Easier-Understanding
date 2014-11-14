@@ -1,10 +1,17 @@
 function lambda = complambda(u,u0,h,sigma)
 % compute lambda according to equation (2.9c) in the paper
+% u : iterated image
+% u0: noisy image
+% h : h in the paper
+% sigma : noise standard variance 
+
 epsilon = 10^-3;
 % epsilon = 1;
 den  = sqrt(backdiffx(u).^2 + backdiffy(u).^2 + epsilon^2); % denominator
 num1 = backdiffx(u0) .* backdiffx(u); % numerator
 num2 = backdiffy(u0) .* backdiffy(u); % numerator
+% num1 = backdiffx(u) .* backdiffx(u); % numerator
+% num2 = backdiffy(u) .* backdiffy(u); % numerator
 
 % Note that we must use mean(mean( )) here rather that sum(sum( ))
 % The equation (2.9c) is a little misleading for us.

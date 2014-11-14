@@ -41,7 +41,7 @@ dt = 0.2; % \Delta t in the paper, time step
 h = 1; % h in the paper
 epsilon = 10^-3; % \epsilon to avoid nan (not a number) occurrence
                  % nan occurs when dividing zero
-iterNum = 200;                 
+iterNum = 100;                 
 lambda_arr = [];
 for i = 1:iterNum
     % update lambda according to equation (2.9c) in the paper 
