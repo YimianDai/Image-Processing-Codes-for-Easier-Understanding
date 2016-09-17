@@ -5,8 +5,8 @@
 
 
 ### Update History
-2016-09-17: Add WNNM-RPCA code.
-2015-12-11: Add APG code.
+2016-09-17: Add WNNM-RPCA code.   
+2015-12-11: Add APG code.   
 
 读研以来读别人论文的感受
 1. 有些论文作者没有放出源代码，算法实现比较困难；
