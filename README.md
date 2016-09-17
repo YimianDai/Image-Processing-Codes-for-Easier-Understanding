@@ -1,5 +1,11 @@
 
+|Code|Reference|
+|---|---|
+| WNNM |Gu, S.; Xie, Q.; Meng, D.; Zuo, W.; Feng, X. & Zhang, L.<br> Weighted Nuclear Norm Minimization and Its Applications to Low Level Vision<br> *International Journal of Computer Vision*, **2016**, 1-26   |
+
+
 ### Update History
+2016-09-17: Add WNNM-RPCA code.
 2015-12-11: Add APG code.
 
 读研以来读别人论文的感受
