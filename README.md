@@ -1,7 +1,11 @@
 # Image-Processing-Codes-for-Easier-Understanding
+Some personal MATLAB codes in Image Processing for practice. For Julia version, please refer to my another repo: [**CVAlgo.jl**](https://github.com/YimianDai/CVAlgo.jl).
+
+## Contributing
+Please feel free to inform me the errors (yimian.dai at gmail dot com).
 
 ## Motivation:
-读研以来读别人论文的感受
+读研以来读别人论文的感受:   
 1. 有些论文作者没有放出源代码，算法实现比较困难；   
 2. 有写论文论文作者放出了源代码，有时也存在一些问题，比如：   
   * 程序和论文中说的流程不统一、不相符；
